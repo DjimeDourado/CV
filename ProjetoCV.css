@@ -1,0 +1,156 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#d6cdcd;
+
+}
+
+/* Geral**/
+.Conteudo{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 5px;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #8a3017;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #cf6e14;
+  }
+  
+  
+  .container2 {
+    width: 50%;
+    top: 40px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+/* Header **/
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 20px;
+    min-height: 50px;
+    border-bottom: #8a3017 3px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #CV{
+    float: left;
+}
+header #CV{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 20px;
+}
+header .realce, header .realce2 a{
+    color: #bb4914;
+    font-weight: bold;
+
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* Resumo**/
+
+#Resumo{
+    min-height: 500;
+    background: url('img/Resumo.png') no-repeat 0 -400px;
+    text-align: left;
+    color: #ffffff;
+}
+/* Resumo2**/
+
+
+#Resumo2{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#Resumo p{
+    font-size: 20px;
+    text-align: justify;
+
+}
+/* Caixas**/
+
+#Caixas{
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+#Caixas .Caixa{
+    float: left;
+    text-align: center;
+    width:30%;
+    padding: 15px;
+    font-size: 14px;
+}
+
+#Caixas .Caixa img{
+    width: 250px;
+}
+#Art1{
+    margin-top: 50px;
+
+}
+
+
+footer{
+    float: unset;
+    padding: 5px;
+    text-align: center;
+    color: #9b9797;
+    background-color:  #52200a;
+}
